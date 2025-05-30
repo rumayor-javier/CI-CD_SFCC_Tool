@@ -1,0 +1,10 @@
+# .gitignore
+.env
+
+# Directorios temporales de la aplicación
+temp_repo_clone/
+*_extracted/  # Ignora las carpetas temporales de extracción (ej. js_extracted)
+
+# Carpetas de proyectos locales (ej. STG-2FA-equinox-00528378/)
+# Esto ignora todas las carpetas que sigan este patrón
+STG-2FA-*/
